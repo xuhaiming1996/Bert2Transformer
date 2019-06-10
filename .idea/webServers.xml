@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="82dcd12d-4192-42a6-b096-8d22e48854b2" name="bert-transfomer" url="http://172.17.84.211">
+        <fileTransfer host="172.17.84.211" port="8071" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="8071" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

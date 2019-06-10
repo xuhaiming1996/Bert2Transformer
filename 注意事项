@@ -1,0 +1,18 @@
+
+## 整体框架
+   seq2seq（bert+Transfomer）
+   编码器是：bert
+   解码器是：使用的是Transformer的解码器
+
+## 目的
+   主要用于文本生成领域---注意这里 source 和 target 是同一种语言
+
+
+这里输入符号做特殊处理
+【CLS】== <S>
+【SEP】== </S>
+在我这里面 [CLS]
+
+
+
+tensorflow的多卡

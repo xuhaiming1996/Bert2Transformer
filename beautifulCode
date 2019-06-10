@@ -1,0 +1,12 @@
+##
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("# Preprocessing")
+##
+
+
+##
+_prepro = lambda x:  [line.strip() for line in open(x, mode='r',encoding="utf-8").read().split("\n") \
+                  if not line.startswith("<")]
+prepro_train1, prepro_train2 = _prepro(train1), _prepro(train2)
+##
